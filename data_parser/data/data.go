@@ -2,7 +2,6 @@ package data
 
 import "github.com/maxnemoy/inventory_stack/data_parser/models"
 
-
 var PlacesInitData = []models.Place{
 	{UUID: "", Name: "Не определено", Description: "Местоположение не известно"},
 	{UUID: "", Name: "Математика 1", Description: "3 этаж"},
@@ -19,6 +18,7 @@ var PlacesInitData = []models.Place{
 	{UUID: "", Name: "Русский 7", Description: "3 этаж"},
 	{UUID: "", Name: "Биология 1", Description: "3 этаж"},
 	{UUID: "", Name: "Биология 2", Description: "3 этаж"},
+	{UUID: "", Name: "Лаборатория биологии", Description: "3 этаж"},
 	{UUID: "", Name: "Кабинет начальных классов 5", Description: "2 этаж"},
 	{UUID: "", Name: "Кабинет начальных классов 6", Description: "2 этаж"},
 	{UUID: "", Name: "Кабинет начальных классов 7", Description: "2 этаж"},
@@ -42,6 +42,7 @@ var PlacesInitData = []models.Place{
 	{UUID: "", Name: "Психологическая служба", Description: "3 этаж"},
 	{UUID: "", Name: "Физика 1", Description: "3 этаж"},
 	{UUID: "", Name: "Физика 2", Description: "3 этаж"},
+	{UUID: "", Name: "Лаборатория физики", Description: "3 этаж"},
 	{UUID: "", Name: "Информатика 2", Description: "2 этаж"},
 	{UUID: "", Name: "Кабинет технологии и информатики", Description: "3 этаж (Информатика 1)"},
 	{UUID: "", Name: "Кабинет химии", Description: "2 этаж"},
@@ -84,7 +85,7 @@ var PlacesInitData = []models.Place{
 	{UUID: "", Name: "Тренерская", Description: "2 этаж (Ищенко Л.А)"},
 	{UUID: "", Name: "Кафедра здоровья", Description: "2 этаж (Ищенко Л.А)"},
 	{UUID: "", Name: "Радиорубка", Description: "2 этаж (Ищенко Л.А)"},
-
+	{UUID: "", Name: "Хранилище", Description: "0 этаж"},
 }
 
 var TypesInitData = []models.ItemType{
